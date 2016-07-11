@@ -23,6 +23,7 @@ body {
 
 .jumbotron {
     text-align: center;
+    //color: #ffffff;
     background-color: transparent;
 }
 
@@ -47,6 +48,20 @@ a.asc:after, a.desc:after {
     line-height: 1;
     padding-left: 5px;
 }
+
+.site-index {
+    height: 100%;
+    width: 100%;
+    //background: url(https://scontent-mia1-1.cdninstagram.com/t51.2885-15/e35/12826075_668782806593860_155981501_n.jpg) no-repeat center bottom fixed; 
+    //background: url(https://scontent-mia1-1.cdninstagram.com/t51.2885-15/e35/13266729_1602312453430920_627957120_n.jpg) no-repeat center center fixed;
+    //background: url(https://scontent-mia1-1.cdninstagram.com/t51.2885-15/e35/13551638_1731466737112902_1908875591_n.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    //color: #ffffff;
+}
+
 
 a.asc:after {
     content: /*"\e113"*/ "\e151";
