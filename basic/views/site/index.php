@@ -3,29 +3,28 @@
 /* @var $this yii\web\View */
 
 $this->title = 'Lily Home';
+//$avatar = "https://scontent-mia1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/929321_155787311462176_1383367454_n.jpg";
+$avatar = "https://scontent-mia1-1.cdninstagram.com/t51.2885-15/e35/12826075_668782806593860_155981501_n.jpg";
 ?>
-<div class="site-index">
+<div class="site-index" align="center">
 
-    <div class="jumbotron">
+    <div> <!--class="jumbotron"-->
+         
         <h1>Hello!</h1>
-
         <p class="lead">Welcome to Lily's Fabulous Life.</p>
-
-        
+        <!--<a href="#" class="thumbnail">-->
+        <img class="img-circle" src="<?= $avatar ?>" alt="..." height="500px" width="500px">
+        <!--</a>-->
     </div>
 
-    <div class="body-content">
+    <div class="home-content">
 
         <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
+            <div class="col-lg-12">
+                <h2>Lily's Bio:</h2>
+                <p>Hello, my name is Lily. I am a fluffly little maltese puppy weighing it at 5.7 lbs. I love to run, play fetch, tug of war, eat puppy treats, and take naps. I love making new friends, and I always give my new friends lots of kisses.</p>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+                <!--<p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>-->
             </div>
         </div>
 
