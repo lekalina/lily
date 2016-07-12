@@ -62,6 +62,10 @@ a.asc:after, a.desc:after {
     //color: #ffffff;
 }
 
+.gallery-content{
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 a.asc:after {
     content: /*"\e113"*/ "\e151";

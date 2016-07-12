@@ -5,28 +5,30 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+$value = Yii::$app->request->get('id');
+$image = \app\models\Lily_images::findAll($value);
+//echo("<pre>".  print_r($image,true)."</pre>");
+$row = $image[0];
+//echo("<pre>".  print_r($url['image_url'],true)."</pre>");
+//die;
 ?>
 
-<div class="site-detail">
+<div class="site-detail" align="center">
 
-    <div class="jumbotron">
-        
-
-        <p class="lead">Title</p>
-
-        
+    <div class="gallery_detail">
+        <a href="#" class="img-rounded">
+            <img src="<?= $row['image_url'] ?>" alt="..." width="60%" height="auto">
+          </a>
     </div>
 
-    <div class="body-content">
+    <div class="gallery-content">
 
         <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
+            <div class="col-lg-12">
+                <h2>Gallery Image: <?= $row['image_id'] ?></h2>
 
-                <p></p>
+                <p><?= $row['image_desc'] ?></p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
             </div>
         </div>
 

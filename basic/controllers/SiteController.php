@@ -89,6 +89,12 @@ class SiteController extends Controller
 
     public function actionAbout()
     {
-        return $this->render('about');
+        $images = \app\models\Lily_images::find()->all();
+        return $this->render('gallery',array('images'=>$images));
+    }
+    
+    public function actionDetail()
+    {
+        return $this->render('detail');
     }
 }
