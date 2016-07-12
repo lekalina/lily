@@ -11,7 +11,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 ?>
 <div class="site-about">
-    <h1><?= Html::encode($this->title) ?></h1>
+    <!--<h1><?php //Html::encode($this->title) ?></h1>-->
 
     <div class="row">
         <?php foreach($images as $image): ?>
@@ -24,5 +24,5 @@ $this->params['breadcrumbs'][] = $this->title;
         <?php endforeach ?>
     </div>
 
-    <code><?= __FILE__ ?></code>
+    <!--<code><?php // __FILE__ ?></code>-->
 </div>
