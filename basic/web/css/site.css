@@ -67,6 +67,13 @@ a.asc:after, a.desc:after {
     margin-right: 20%;
 }
 
+.home-content{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 a.asc:after {
     content: /*"\e113"*/ "\e151";
 }
