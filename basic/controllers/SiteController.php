@@ -87,7 +87,7 @@ class SiteController extends Controller
         ]);
     }
 
-    public function actionAbout()
+    public function actionGallery()
     {
         $images = \app\models\Lily_images::find()->all();
         return $this->render('gallery',array('images'=>$images));
@@ -96,5 +96,10 @@ class SiteController extends Controller
     public function actionDetail()
     {
         return $this->render('detail');
+    }
+    
+    public function actionVideo()
+    {
+        return $this->render('video');
     }
 }
