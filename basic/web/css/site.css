@@ -139,3 +139,7 @@ a.desc:after {
 .gallery_thumb:hover{
     transform: scale(1.3);
 }
+
+.bio-content {
+    padding-top: 200px;
+}

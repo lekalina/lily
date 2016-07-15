@@ -21,9 +21,11 @@ $avatar = "https://scontent-mia1-1.cdninstagram.com/t51.2885-15/e35/12826075_668
 
         <div class="row">
             <div class="col-lg-12">
+                <!--
                 <h2>Bio:</h2>
+                
                 <p>My name is Lily. I am a fluffly little maltese puppy weighing it at 5.7 lbs. I love to run, play fetch, tug of war, eat puppy treats, and take naps. I love making new friends, and I always give my new friends lots of kisses.</p>
-
+                -->
                 <!--<p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>-->
             </div>
         </div>

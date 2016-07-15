@@ -7,6 +7,8 @@ and open the template in the editor.
 
 <div class="col-lg-12" align="center">
     
+    <!--<a href="https://www.youtube.com/embed/fM6v4i5c-hY" data-toggle="lightbox">Launch modal</a>-->
+    
     <iframe width="350" height="600" frameborder="0"
         src="https://www.youtube.com/embed/fM6v4i5c-hY">
     </iframe>
@@ -36,6 +38,11 @@ and open the template in the editor.
     </iframe>
     
 </div>
-
+<script type="text/javascript">
+    $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    }); 
+</script>
 
 

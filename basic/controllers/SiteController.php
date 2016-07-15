@@ -102,4 +102,9 @@ class SiteController extends Controller
     {
         return $this->render('video');
     }
+    
+    public function actionAbout()
+    {
+        return $this->render('about');
+    }
 }
