@@ -124,3 +124,18 @@ a.desc:after {
     padding: 10px 20px;
     margin: 0 0 15px 0;
 }
+
+.thumbnail {
+    overflow: hidden;
+    border: 0 none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.gallery_thumb{
+    -webkit-transition: all 0.5s ease;
+}
+
+.gallery_thumb:hover{
+    transform: scale(1.3);
+}

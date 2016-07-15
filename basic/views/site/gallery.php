@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="col-xs-6 col-md-3">
             <?php $url = Url::to(['/site/detail','id'=>$image['image_id']],true); ?>
           <a href="<?= $url?>" class="thumbnail">
-              <img src="<?= $image['image_url'] ?>" alt="...">
+              <img class="gallery_thumb" src="<?= $image['image_url'] ?>" alt="...">
           </a>
         </div>
         <?php endforeach ?>
