@@ -129,7 +129,8 @@ a.desc:after {
     overflow: hidden;
     border: 0 none;
     box-shadow: none;
-    background: transparent;
+    background: rgba(225, 225, 225, .2);
+    //background: transparent;
 }
 
 .gallery_thumb{
@@ -140,6 +141,36 @@ a.desc:after {
     transform: scale(1.3);
 }
 
+.video_thumb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video_title {
+   //position: absolute;
+    //top: 0;
+    color: white;
+}
+
+.home_border {
+    //border: 1px solid white;
+    //background: rgba(225, 225, 225, .1);
+    border-radius: 5px;
+}
+.home_btns {
+    padding: 5%;
+}
+
 .bio-content {
-    padding-top: 200px;
+    padding-top: 20px;
+}
+
+.bio-info{
+    padding: 20px;
+    //border: 1px solid white;
+    background: rgba(225, 225, 225, .2);
+    border-radius: 10px;
 }
