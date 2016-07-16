@@ -6,14 +6,18 @@
  * and open the template in the editor.
  */
 //$avatar = "https://scontent-mia1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/929321_155787311462176_1383367454_n.jpg";
-$avatar = "https://scontent-mia1-1.cdninstagram.com/t51.2885-15/e35/13712284_267930850252298_1584001144_n.jpg";
+//$avatar = "https://scontent-mia1-1.cdninstagram.com/t51.2885-15/e35/13712284_267930850252298_1584001144_n.jpg";
 //$avatar = "https://scontent-mia1-1.cdninstagram.com/t51.2885-15/e35/13744097_1600324276965025_515470781_n.jpg";
+$avatar = "https://scontent-mia1-1.cdninstagram.com/t51.2885-15/e35/13743669_2052075521684268_1260073904_n.jpg";
+
 ?>
 
 <div class="site-detail">
 
-    <div class="col-lg-6" align="right">
+    <div class="col-lg-6" align="right" >
+        <div style="margin-bottom: 30px;">
             <img class="img-rounded" src="<?= $avatar ?>" alt="..." width="100%" height="auto">
+        </div>
     </div>
 
     <div class="bio-content" align="left">
