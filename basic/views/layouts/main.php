@@ -20,6 +20,7 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
+    <script type="text/javascript" source="/js/jQuery.js"></script>
 </head>
 <body>
 <?php $this->beginBody() ?>
@@ -75,3 +76,16 @@ AppAsset::register($this);
 </body>
 </html>
 <?php $this->endPage() ?>
+
+<script>
+    var $ = jQuery;
+    $(document).ready(function(){
+        
+        $(document).on("click",".game_border",function(){
+            var key = $(this).attr("id");
+            var dog = $(this).attr("dog");
+            console.log(key+":"+dog);
+        });
+        
+    });
+</script>

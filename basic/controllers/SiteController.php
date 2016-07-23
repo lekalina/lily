@@ -9,6 +9,8 @@ use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
 
+//'<pre>'.print_r($images,true).'</pre>'
+
 class SiteController extends Controller
 {
     public function behaviors()
@@ -106,5 +108,31 @@ class SiteController extends Controller
     public function actionAbout()
     {
         return $this->render('about');
+    }
+    
+    public function actionGame()
+    {
+        $images = \app\models\Lily_images::find()->all();
+        return $this->render('game',array('images'=>$images));
+    }
+    
+    public function actionAndroidgetimages()
+    {
+        //die("wtf");
+        $out = Array();
+        $out['response'] = "init";
+        $out['message'] = "";
+        $images = \app\models\Lily_images::find()->all();
+        if($images){
+            $out['response'] = "success";
+            foreach($images as $img){
+                $out["images"][] = $img['image_url'];
+            }
+        }else{
+            $out['response'] = "error";
+            $out['message'] = "there are no images available";
+        }
+        header('Content-Type: application/json');
+        return json_encode($out);
     }
 }

@@ -164,6 +164,20 @@ a.desc:after {
     padding: 5%;
 }
 
+.game_border {
+    border: 1px solid white;
+    background: rgba(225, 225, 225, .1);
+    border-radius: 5px;
+}
+
+.cardBack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
 .bio-content {
     padding-top: 20px;
 }
