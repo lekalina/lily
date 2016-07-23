@@ -25,7 +25,7 @@ $row = $image[0];
 
         <div class="row">
             <div class="col-lg-12">
-                <h2>Gallery Image: <?= $row['image_id'] ?></h2>
+                <h4>Gallery Image: <?= $row['image_id'] ?></h4>
 
                 <p><?= $row['image_desc'] ?></p>
 
