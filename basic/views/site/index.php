@@ -32,13 +32,13 @@ $about = Url::to(['/site/about'],true);;
         <div class="home_border">
             <div class="home_btns">
                 <a href="<?= $photos?>">
-                    <img class="home_btns" src="<?= $btn_photo ?>" alt="..." width="30%">
+                    <img class="home_btns" src="/images/icon_camera6.png" alt="..." width="30%">
                 </a>
                 <a href="<?= $videos?>">
-                    <img class="home_btns" src="<?= $btn_video ?>" alt="..." width="30%">
+                    <img class="home_btns" src="/images/icon_video3.png" alt="..." width="30%">
                 </a>
                 <a href="<?= $about?>">
-                    <img class="home_btns" src="<?= $btn_about ?>" alt="..." width="30%">
+                    <img class="home_btns" src="/images/icon_pawprint2.png" alt="..." width="30%">
                 </a>
             </div>
         </div>
