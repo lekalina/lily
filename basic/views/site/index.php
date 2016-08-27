@@ -7,9 +7,9 @@ $this->title = 'Lily Home';
 //$avatar = "https://scontent-mia1-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/929321_155787311462176_1383367454_n.jpg";
 $avatar = "https://scontent-mia1-1.cdninstagram.com/t51.2885-15/e35/12826075_668782806593860_155981501_n.jpg";
 
-$btn_photo = 'https://static1.squarespace.com/static/52150b0ae4b0a304617b5518/52a1e579e4b0f50b7a90457a/52a1e579e4b0f50b7a90457b/1385418077437/camera+icon-green.png';
-$btn_video = 'https://sterlingpr.com/wp-content/uploads/2014/04/Blue-Video-Slate.png';
-$btn_about = 'https://pixabay.com/static/uploads/photo/2012/04/11/11/39/footprint-27615_960_720.png';
+//$btn_photo = 'https://static1.squarespace.com/static/52150b0ae4b0a304617b5518/52a1e579e4b0f50b7a90457a/52a1e579e4b0f50b7a90457b/1385418077437/camera+icon-green.png';
+//$btn_video = 'https://sterlingpr.com/wp-content/uploads/2014/04/Blue-Video-Slate.png';
+//$btn_about = 'https://pixabay.com/static/uploads/photo/2012/04/11/11/39/footprint-27615_960_720.png';
 
 $photos = Url::to(['/site/gallery'],true);;
 $videos = Url::to(['/site/video'],true);;

@@ -27,8 +27,8 @@ $avatar = "https://scontent-mia1-1.cdninstagram.com/t51.2885-15/e35/13743669_205
                 <p>
                     <b>Name:</b> Lily <br><br>
                     <b>Breed:</b> Maltese <br><br>
-                    <b>Weight:</b> 5.7 lbs <br><br>
-                    <b>Birthday:</b> October 10, 2015 <br><br>
+                    <b>Weight:</b> 6.2 lbs <br><br>
+                    <b>Birthday:</b> October 6, 2015 <br><br>
                     <b>Likes:</b> puppy treats, going on walks, playing fetch, taking naps <br><br>
                     <b>Dislikes:</b> climbing stairs, bath time, hair cuts  <br><br>
                 </p>
